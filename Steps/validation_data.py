@@ -3,7 +3,7 @@ import pandas as pd
 from pathlib import Path
 
 import subprocess
-import os
+
 
 @given('User sets get universe script python at "{path_script}"')
 def step_set_universe_script(context, path_script: str):
