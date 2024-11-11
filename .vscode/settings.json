@@ -2,5 +2,8 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "ms-python.black-formatter",
     "files.autoSave": "afterDelay",
-    "files.autoSaveWorkspaceFilesOnly": true
+    "files.autoSaveWorkspaceFilesOnly": true,
+    "[feature]": {
+        "editor.defaultFormatter": "alexkrechik.cucumberautocomplete"
+    }
 }
